@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 const App = ()=> {
   const pageSize = 5;
   const apiKey = "18c9b52829a348b0926f054e2daf8d51"
-  const [progress, setProgress] = useState(0)
+  const [ setProgress] = useState(0)
  
     return (
       <div>
